@@ -72,13 +72,13 @@ function hra() {
     if(body >= 20){
         document.getElementById("konec1").textContent = "Vyhrál jsi";
         setTimeout(function() {
-            window.location.href = "jimbovo_kasino.html";
+            window.location.href = "index.html";
         }, 3000);
     }
     if(body <= 0) {
         document.getElementById("konec1").textContent = "Prohrál jsi";
         setTimeout(function() {
-            window.location.href = "jimbovo_kasino.html";
+            window.location.href = "index.html";
         }, 3000);
     }
     return body;
