@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <link rel="icon" href="favicon-kreditka.png">
+    <meta charset="UTF-8">
+    <script src="zmetene_cislo.js"></script>
+    <link rel="stylesheet" href="barvicky.css">
+    <title>ČÍSLIČKA</title>
+
+</head>
+<body>
+<audio autoplay loop><source src="Playing%20and%20winning%20Slot%20Machine%20Jackpot%20-%20Sound%20Effect%20for%20editing.mp3" type="audio/mp3"></audio>
+    <header class="hlavicka3">
+        <h3>HRA S ČÍSLEM</h3>
+    </header>
+    <article class="article3">
+        <form>
+            <table id="stul2">
+                <tr>
+                    <td class="texth1"><label>Vyber jsi možnosti (můžeš i více z různých řádků), první číslo je 50: </label></td>
+                </tr>
+                <tr>
+                    <td class="texth1"><label>Bude číslo větší nebo menší než předchozí</label></td>
+                    <td class="text1"><label><select id="vetsi/mensi" class="volba1" onchange="vyber1()">
+                        <option value="vetsi">vetsi</option>
+                        <option value="mensi">mensi</option></select></label></td></tr>
+                <tr>
+                    <td class="texth1"><label>Bude číslo sudé nebo liché</label></td>
+                    <td class="text1"><label><select id="sude/liche" class="volba1" onchange="vyber2()">
+                        <option value="sude">sudé</option>
+                        <option value="liche">liché</option></select></label></td>
+                </tr>
+                <tr>
+                    <td class="texth1"><label>V jakém "sektoru" bude číslo</label></td>
+                    <td class="text1"><label><select id="sektor" class="volba1" onchange="vyber3()">
+                        <option value="1-25">1-25</option>
+                        <option value="26-50">26-50</option>
+                        <option value="51-75">51-75</option>
+                        <option value="76-100">76-100</option></select></label></td>
+                </tr>
+                <tr>
+                    <td class="texth1"><label>Bude číslo prvočíslo</label></td>
+                    <td class="text1"><label><select id="prvocislo" class="volba1" onchange="vyber4()">
+                        <option value="ano">ano</option>
+                        <option value="ne">ne</option></select></label></td>
+                </tr>
+                <tr>
+                    <td class="texth1"><label>Napiš číslo, které to bude</label></td>
+                    <td class="text1"><label> <input type="number" name="cislicko" min="1" max="100" id="cislicko" value="1" class="volba1"></label></td>
+                </tr>
+                <tr>
+                    <td class="texth1"> <button type="button" onclick="hra()" name="tlacitko" id="tlacitko1">Potvrdit</button></td>
+                </tr>
+            </table>
+            <p id="minule"></p>
+            <p id="cislo"></p>
+            <p id="body"></p>
+            <p id="konec1"></p>
+        </form>
+    </article>
+    <footer class="footer3">
+        <a href="index.html"><img src="zpet.png" alt="zpet" class="zpet"></a>
+        <h6>ministerstvo financí varuje účastí na hazardní hře může vzniknout závislost!!!</h6>
+    </footer>
+
+
+
+</body>
+</html>

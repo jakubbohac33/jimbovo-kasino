@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Kostičky</title>
+    <link rel="icon" href="favicon-oops!all6s.png">
+    <link rel="stylesheet" href="barvicky.css">
+    <script src="zmetene_kocki.js"></script>
+</head>
+<body>
+<audio autoplay loop><source src="Playing%20and%20winning%20Slot%20Machine%20Jackpot%20-%20Sound%20Effect%20for%20editing.mp3" type="audio/mp3"></audio>
+    <header class="hlavicka1">
+        <h1>Hra s kostkami<br><br></h1>
+    </header>
+    <article class="article1">
+        <form>
+            <table id="stul1">
+                <tr>
+                    <td class="texth"><label>Ceny:</label></td>
+                </tr>
+                <tr>
+                    <td class="text"><label>1K = 1</label></td>
+                    <td class="text"><label>2K = 3</label></td>
+                    <td class="text"><label>3K = 5</label></td>
+                    <td class="text"><label>4K = 9</label></td>
+                    <td class="text"><label>5K = 15</label></td>
+                </tr>
+                <tr>
+                    <td class="texth"><label>Násobiče:</label><td>
+                </tr>
+                <tr>
+                    <td class="text"><label>Vysoké Číslo x1</label><td>
+                    <td class="text"><label>Pár x2</label><td>
+                    <td class="text"><label>Dva Páry x3 </label><td>
+                    <td class="text"><label>Trojce x5</label><td>
+                    <td class="text"><label>Postupka x8</label><td>
+                    <td class="text"><label>Full House x12</label><td>
+                    <td class="text"><label>Čtverice x20</label><td>
+                    <td class="text"><label>Pětice x50</label><td>
+                </tr>
+                <tr>
+                    <td class="texth"><label>Počet kostek:</label><td>
+
+                </tr>
+                <tr>
+                    <td class="text"><label>Vaše volba:</label></td>
+                    <td class="text"><label><select id="volba" onchange="vyber()">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select></label></td>
+                    <td class="text"> <button type="button" onclick="kostky()" name="tlacitko" id="tlacitko">Potvrdit</button></td>
+                </tr>
+            </table>
+
+            <p id="hod"></p>
+            <p id="celkem"></p>
+            <p id="skore"></p>
+            <p id="kredity"></p>
+            <p id="konec"></p>
+
+        </form>
+    </article>
+    <footer class="footer1">
+        <a href="index.html"><img src="zpet.png" alt="zpet" class="zpet"></a>
+        <h6>ministerstvo financí varuje účastí na hazardní hře může vzniknout závislost!!!</h6>
+    </footer>
+</body>
+</html>

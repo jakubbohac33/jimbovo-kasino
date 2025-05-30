@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.article1{
+    background-color: aqua;
+    height: 470px;
+    border-bottom: solid black 5px;
+    border-top: solid black 5px;
+    border-right: solid black 5px;
+    border-left: solid black 5px;
+}
+.footer1 {
+    background-color: gold;
+    height: 50px;
+    border-bottom: solid black 5px;
+    border-right: solid black 5px;
+    border-left: solid black 5px;
+}
+.zpet{
+    width: 50px;
+    float: right;
+    display: block;
+}
+.footer1 h6 {
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    color: crimson;
+    padding-top: 20px;
+}
+.hlavicka1 h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.text {
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: lightgreen;
+}
+#stul1 td {
+    width: 800px;
+    font-weight: bolder;
+    align-items: center;
+    border: solid 3px black;
+}
+.texth {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: lightcoral;
+}
+#stul1 {
+    border-right: solid 5px black;
+    border-left: solid 5px black;
+    border-bottom: solid 5px black;
+    background-color: cornflowerblue;
+    empty-cells: hide;
+}
+.hlavicka1 {
+    background-color: coral;
+    height: 30px;
+    border-top: solid black 5px;
+    border-right: solid black 5px;
+    border-left: solid black 5px;
+}
+#tlacitko {
+    background-color: blanchedalmond;
+    font-weight: bold;
+}
+#volba {
+    background-color: khaki;
+}
+#hod {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+#celkem {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+#skore {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+#kredity {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+#konec{
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+#nadpis {
+    animation: colorChange 5s infinite;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+
+}
+@keyframes colorChange {
+    0% {
+        color: #000000;
+    }
+    10% {
+        color: #072475;
+    }
+    20% {
+        color: #13563B;
+    }
+    30% {
+        color: #A46928;
+    }
+    40% {
+        color: #E4A700;
+    }
+    50% {
+        color: #C70000;
+    }
+    60% {
+        color: #7B1414;
+    }
+    70% {
+        color: #7C14AC;
+    }
+    80% {
+        color: #F4E09F;
+    }
+    90% {
+        color: #2F365F;
+    }
+    100% {
+        color: #000000;
+    }
+}
+#jimbo {
+    display: block;
+    margin: auto;
+    height: 150px;
+    float: none;
+}
+.kreditka {
+    float: right;
+    display: block;
+    height: 180px;
+    width: 130px;
+    margin: 10px;
+
+}
+.sestky {
+    float: left;
+    display: block;
+    height: 180px;
+    width: 130px;
+    margin: 10px;
+}
+.article2 {
+
+    height: 500px;
+    background-color: antiquewhite;
+    border-bottom: solid black 5px;
+    border-top: solid black 5px;
+    border-right: solid black 5px;
+    border-left: solid black 5px;
+}
+
+.hlavicka2 {
+    height: 50px;
+    background-color: #C70000;
+    border-top: solid black 5px;
+    border-right: solid black 5px;
+    border-left: solid black 5px;
+}
+#nadpis1 {
+    font-weight: bolder;
+    float: left;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: left;
+}
+#nadpis2 {
+    font-weight: bolder;
+    float: right;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 10px;
+}
+#textik1 {
+    float: left;
+    text-align: center;
+    width: 300px;
+    margin-left: 10px;
+    border: solid black 3px;
+    font-weight: bolder;
+    background-color: darkorange;
+}
+#textik2 {
+    float: right;
+    text-align: center;
+    width: 375px;
+    margin-right: 10px;
+    border: solid black 3px;
+    font-weight: bolder;
+    background-color: darkorange;
+
+}
+.article3{
+    background-color: lawngreen;
+    height: 470px;
+    border-bottom: solid black 5px;
+    border-top: solid black 5px;
+    border-right: solid black 5px;
+    border-left: solid black 5px;
+}
+.footer3 {
+    background-color: lightblue;
+    height: 50px;
+    border-bottom: solid black 5px;
+    border-right: solid black 5px;
+    border-left: solid black 5px;
+}
+.hlavicka3 h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.hlavicka3 {
+    background-color: lightpink;
+    height: 30px;
+    border-top: solid black 5px;
+    border-right: solid black 5px;
+    border-left: solid black 5px;
+}
+#stul2 td {
+    width: 800px;
+    font-weight: bolder;
+    align-items: center;
+    border: solid 3px black;
+}
+#stul2 {
+    border-right: solid 5px black;
+    border-left: solid 5px black;
+    border-bottom: solid 5px black;
+    background-color: cornflowerblue;
+    empty-cells: hide;
+}
+.footer3 h6 {
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    color: crimson;
+    padding-top: 20px;
+}
+.text1 {
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: sandybrown;
+}
+.texth1 {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: darkgrey;
+}
+#tlacitko1 {
+    background-color: darkturquoise;
+    font-weight: bold;
+}
+.volba1 {
+    background-color: cornsilk;
+}
+#minule {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+#cislo {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+#body {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+#konec1 {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
